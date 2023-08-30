@@ -1,0 +1,39 @@
+/* Resetear los estilos por defecto del navegador */
+body {
+  margin: 0;
+  padding: 0;
+  background-color:#FEFDFA ;
+}
+
+/* Estilos del menú vertical */
+.vertical-menu {
+  background-color: #1A202C;
+  width: 100%;
+}
+
+.vertical-menu a {
+  color: white;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  font-size: 18px;
+  font-family: times;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.vertical-menu a:hover {
+  background-color: #555;
+}
+
+.vertical-menu a.active {
+  background-color: #1A202C;
+}
+
+.footer {
+  background-color: #1A202C;
+
+  color:white;
+}
+
